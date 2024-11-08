@@ -1,0 +1,29 @@
+/* Animation style */
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fadeInZoom {
+  animation: fadeInZoom 0.8s ease-out forwards;
+}
+
+/* Add any other global styles you need here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
